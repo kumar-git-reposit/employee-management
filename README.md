@@ -60,3 +60,36 @@ This is a full-stack web application that allows users to:
 - Fill out and submit the form
 - Check DynamoDB for stored data
 - Monitor Lambda logs in CloudWatch
+
+
+---
+
+## 🧰 AWS Tools Used (Explained Like a Kid 😄)
+
+### 🧠 1. AWS Lambda
+- Lambda is like a tiny brain that runs code only when needed.
+- It’s used to run backend logic like saving employee data.
+- It’s serverless and cost-effective.
+
+### 🏗️ 2. AWS Amplify
+- Amplify hosts your frontend and connects it to backend services.
+- It watches your GitHub repo and updates your live site.
+- It helps with authentication, storage, and API calls.
+
+### 🚪 3. API Gateway
+- API Gateway is like a door that receives requests and sends them to Lambda.
+- It creates secure endpoints like `/addEmployee`.
+- It manages APIs and controls access.
+
+### 📦 4. DynamoDB
+- DynamoDB is a NoSQL database that stores employee info.
+- It’s fast, flexible, and serverless.
+- Lambda uses it to save and retrieve data.
+
+---
+
+## 🔄 Project Flow Diagram
+
+![AWS Flowchart](aws-flowchart.png)
+
+
